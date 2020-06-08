@@ -164,7 +164,7 @@
                         <!--{* ▼メーカー *}-->
                         <!--{if $arrProduct.maker_name|strlen >= 1}-->
                             <dl class="maker row no-gutters mb-0">
-                                <d class="col-6 col-sm-5"t>メーカー：</dt>
+                                <dt class="col-6 col-sm-5">メーカー：</dt>
                                 <dd class="col"><!--{$arrProduct.maker_name|h}--></dd>
                             </dl>
                         <!--{/if}-->
@@ -310,7 +310,7 @@
                             <!--{/if}-->
                             <img src="<!--{$arrFile[$ikey].filepath}-->" alt="<!--{$arrProduct.name|h}-->" class="img-fluid" />
                             <!--{if $arrProduct[$lkey]|strlen >= 1}-->
-                                </a>
+                                </a><br>
                                 <span class="mini">
                                     <a href="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct[$lkey]|h}-->" class="expansion" target="_blank">
                                         <i class="fas fa-search-plus"></i> 画像を拡大する</a>

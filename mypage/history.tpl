@@ -232,14 +232,14 @@
                                             <!--{/if}-->
                                             </small>
                                         <!--{/if}-->
-                                    </td>
+                                    </div>
                                     <div class="col">
                                         <div class="d-flex justify-content-between">
                                             <div>
                                                 <strong>単価：</strong>
                                                 <!--{$item.price|sfCalcIncTax:$tpl_arrOrderData.order_tax_rate:$tpl_arrOrderData.order_tax_rule|n2s}-->円
-                                            </td>
-                                            <td><strong>数量：</strong><!--{$item.quantity}--></td>
+                                            </div>
+                                            <div><strong>数量：</strong><!--{$item.quantity}--></div>
                                         </div>
                                     </div>
                                 </div>

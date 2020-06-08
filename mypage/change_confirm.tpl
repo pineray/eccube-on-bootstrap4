@@ -33,7 +33,7 @@
             <input type="hidden" name="mode" value="complete" />
             <input type="hidden" name="customer_id" value="<!--{$arrForm.customer_id.value|h}-->" />
             <!--{foreach from=$arrForm key=key item=item}-->
-                <!--{if $key ne "mode" && $key ne "subm"}-->
+                <!--{if $key != "mode" && $key != "subm"}-->
                 <input type="hidden" name="<!--{$key|h}-->" value="<!--{$item.value|h}-->" />
                 <!--{/if}-->
             <!--{/foreach}-->
