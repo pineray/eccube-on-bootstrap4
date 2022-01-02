@@ -31,20 +31,20 @@
         <!--{/foreach}-->
 
         <dl class="row">
-            <dt class="col12 col-sm-3">商品名</dt>
-            <dd class="col12 col-sm-9"><!--{$arrForm.name|h}--></dd>
-            <dt class="col12 col-sm-3">投稿者名</dt>
-            <dd class="col12 col-sm-9"><!--{$arrForm.reviewer_name|h}--></dd>
-            <dt class="col12 col-sm-3">投稿者URL</dt>
-            <dd class="col12 col-sm-9"><!--{$arrForm.reviewer_url|h}--></dd>
-            <dt class="col12 col-sm-3">性別</dt>
-            <dd class="col12 col-sm-9"><!--{if $arrForm.sex eq 1}-->男性<!--{elseif $arrForm.sex eq 2}-->女性<!--{/if}--></dd>
-            <dt class="col12 col-sm-3">おすすめレベル</dt>
-            <dd class="col12 col-sm-9"><span class="recommend_level"><!--{$arrRECOMMEND[$arrForm.recommend_level]}--></span></dd>
-            <dt class="col12 col-sm-3">タイトル</dt>
-            <dd class="col12 col-sm-9"><!--{$arrForm.title|h}--></dd>
-            <dt class="col12 col-sm-3">コメント</dt>
-            <dd class="col12 col-sm-9"><!--{$arrForm.comment|h|nl2br}--></dd>
+            <dt class="col-12 col-sm-3">商品名</dt>
+            <dd class="col-12 col-sm-9"><!--{$arrForm.name|h}--></dd>
+            <dt class="col-12 col-sm-3">投稿者名</dt>
+            <dd class="col-12 col-sm-9"><!--{$arrForm.reviewer_name|h}--></dd>
+            <dt class="col-12 col-sm-3">投稿者URL</dt>
+            <dd class="col-12 col-sm-9"><!--{$arrForm.reviewer_url|h}--></dd>
+            <dt class="col-12 col-sm-3">性別</dt>
+            <dd class="col-12 col-sm-9"><!--{if $arrForm.sex eq 1}-->男性<!--{elseif $arrForm.sex eq 2}-->女性<!--{/if}--></dd>
+            <dt class="col-12 col-sm-3">おすすめレベル</dt>
+            <dd class="col-12 col-sm-9"><span class="recommend_level"><!--{$arrRECOMMEND[$arrForm.recommend_level]}--></span></dd>
+            <dt class="col-12 col-sm-3">タイトル</dt>
+            <dd class="col-12 col-sm-9"><!--{$arrForm.title|h}--></dd>
+            <dt class="col-12 col-sm-3">コメント</dt>
+            <dd class="col-12 col-sm-9"><!--{$arrForm.comment|h|nl2br}--></dd>
         </dl>
         <div class="btn_area py-4">
             <div class="row justify-content-center">

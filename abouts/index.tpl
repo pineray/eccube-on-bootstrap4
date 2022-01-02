@@ -54,48 +54,48 @@
 
         <dl class="row">
             <!--{if strlen($arrSiteInfo.shop_name)}-->
-                <dt class="col12 col-sm-3">店名</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.shop_name|h}--></dd>
+                <dt class="col-12 col-sm-3">店名</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.shop_name|h}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.company_name)}-->
-                <dt class="col12 col-sm-3">会社名</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.company_name|h}--></dd>
+                <dt class="col-12 col-sm-3">会社名</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.company_name|h}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.zip01)}-->
-                <dt class="col12 col-sm-3">所在地</dt>
-                <dd class="col12 col-sm-9">〒<!--{$arrSiteInfo.zip01|h}-->-<!--{$arrSiteInfo.zip02|h}--><br /><!--{$arrPref[$arrSiteInfo.pref]|h}--><!--{$arrSiteInfo.addr01|h}--><!--{$arrSiteInfo.addr02|h}--></dd>
+                <dt class="col-12 col-sm-3">所在地</dt>
+                <dd class="col-12 col-sm-9">〒<!--{$arrSiteInfo.zip01|h}-->-<!--{$arrSiteInfo.zip02|h}--><br /><!--{$arrPref[$arrSiteInfo.pref]|h}--><!--{$arrSiteInfo.addr01|h}--><!--{$arrSiteInfo.addr02|h}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.tel01)}-->
-                <dt class="col12 col-sm-3">電話番号</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.tel01|h}-->-<!--{$arrSiteInfo.tel02|h}-->-<!--{$arrSiteInfo.tel03|h}--></dd>
+                <dt class="col-12 col-sm-3">電話番号</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.tel01|h}-->-<!--{$arrSiteInfo.tel02|h}-->-<!--{$arrSiteInfo.tel03|h}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.fax01)}-->
-                <dt class="col12 col-sm-3">FAX番号</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.fax01|h}-->-<!--{$arrSiteInfo.fax02|h}-->-<!--{$arrSiteInfo.fax03|h}--></dd>
+                <dt class="col-12 col-sm-3">FAX番号</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.fax01|h}-->-<!--{$arrSiteInfo.fax02|h}-->-<!--{$arrSiteInfo.fax03|h}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.email02)}-->
-                <dt class="col12 col-sm-3">メールアドレス</dt>
-                <dd class="col12 col-sm-9"><a href="mailto:<!--{$arrSiteInfo.email02|escape:'hex'}-->"><!--{$arrSiteInfo.email02|escape:'hexentity'}--></a></dd>
+                <dt class="col-12 col-sm-3">メールアドレス</dt>
+                <dd class="col-12 col-sm-9"><a href="mailto:<!--{$arrSiteInfo.email02|escape:'hex'}-->"><!--{$arrSiteInfo.email02|escape:'hexentity'}--></a></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.business_hour)}-->
-                <dt class="col12 col-sm-3">営業時間</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.business_hour|h}--></dd>
+                <dt class="col-12 col-sm-3">営業時間</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.business_hour|h}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.good_traded)}-->
-                <dt class="col12 col-sm-3">取扱商品</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.good_traded|h|nl2br}--></dd>
+                <dt class="col-12 col-sm-3">取扱商品</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.good_traded|h|nl2br}--></dd>
             <!--{/if}-->
 
             <!--{if strlen($arrSiteInfo.message)}-->
-                <dt class="col12 col-sm-3">メッセージ</dt>
-                <dd class="col12 col-sm-9"><!--{$arrSiteInfo.message|h|nl2br}--></dd>
+                <dt class="col-12 col-sm-3">メッセージ</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrSiteInfo.message|h|nl2br}--></dd>
             <!--{/if}-->
 
         </dl>

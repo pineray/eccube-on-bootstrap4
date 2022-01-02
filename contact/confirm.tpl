@@ -32,28 +32,28 @@
                 <!--{/if}-->
             <!--{/foreach}-->
             <dl class="row">
-                <dt class="col12 col-sm-3">お名前</dt>
-                <dd class="col12 col-sm-9"><!--{$arrForm.name01.value|h}-->　<!--{$arrForm.name02.value|h}--></dd>
-                <dt class="col12 col-sm-3">お名前(フリガナ)</dt>
-                <dd class="col12 col-sm-9"><!--{$arrForm.kana01.value|h}-->　<!--{$arrForm.kana02.value|h}--></dd>
-                <dt class="col12 col-sm-3">郵便番号</dt>
-                <dd class="col12 col-sm-9">
+                <dt class="col-12 col-sm-3">お名前</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrForm.name01.value|h}-->　<!--{$arrForm.name02.value|h}--></dd>
+                <dt class="col-12 col-sm-3">お名前(フリガナ)</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrForm.kana01.value|h}-->　<!--{$arrForm.kana02.value|h}--></dd>
+                <dt class="col-12 col-sm-3">郵便番号</dt>
+                <dd class="col-12 col-sm-9">
                     <!--{if strlen($arrForm.zip01.value) > 0 && strlen($arrForm.zip02.value) > 0}-->
                         〒<!--{$arrForm.zip01.value|h}-->-<!--{$arrForm.zip02.value|h}-->
                     <!--{/if}-->
                 </dd>
-                <dt class="col12 col-sm-3">住所</dt>
-                <dd class="col12 col-sm-9"><!--{$arrPref[$arrForm.pref.value]}--><!--{$arrForm.addr01.value|h}--><!--{$arrForm.addr02.value|h}--></dd>
-                <dt class="col12 col-sm-3">電話番号</dt>
-                <dd class="col12 col-sm-9">
+                <dt class="col-12 col-sm-3">住所</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrPref[$arrForm.pref.value]}--><!--{$arrForm.addr01.value|h}--><!--{$arrForm.addr02.value|h}--></dd>
+                <dt class="col-12 col-sm-3">電話番号</dt>
+                <dd class="col-12 col-sm-9">
                     <!--{if strlen($arrForm.tel01.value) > 0 && strlen($arrForm.tel02.value) > 0 && strlen($arrForm.tel03.value) > 0}-->
                         <!--{$arrForm.tel01.value|h}-->-<!--{$arrForm.tel02.value|h}-->-<!--{$arrForm.tel03.value|h}-->
                     <!--{/if}-->
                 </dd>
-                <dt class="col12 col-sm-3">メールアドレス</dt>
-                <dd class="col12 col-sm-9"><a href="mailto:<!--{$arrForm.email.value|escape:'hex'}-->"><!--{$arrForm.email.value|escape:'hexentity'}--></a></dd>
-                <dt class="col12 col-sm-3">お問い合わせ内容</dt>
-                <dd class="col12 col-sm-9"><!--{$arrForm.contents.value|h|nl2br}--></dd>
+                <dt class="col-12 col-sm-3">メールアドレス</dt>
+                <dd class="col-12 col-sm-9"><a href="mailto:<!--{$arrForm.email.value|escape:'hex'}-->"><!--{$arrForm.email.value|escape:'hexentity'}--></a></dd>
+                <dt class="col-12 col-sm-3">お問い合わせ内容</dt>
+                <dd class="col-12 col-sm-9"><!--{$arrForm.contents.value|h|nl2br}--></dd>
             </dl>
             <div class="btn_area py-4">
                 <div class="row justify-content-center">
