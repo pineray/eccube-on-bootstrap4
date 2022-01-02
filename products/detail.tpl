@@ -57,7 +57,7 @@
                                 class="expansion"
                                 target="_blank"
                             >
-                                <i class="fas fa-search-plus"></i> 画像を拡大する</a>
+                                <i class="bi bi-arrows-fullscreen"></i> 画像を拡大する</a>
                     </span>
                 <!--{/if}-->
             </div>
@@ -255,7 +255,7 @@
                                         <div id="cartbtn_default">
                                             <!--★カゴに入れる★-->
                                             <a href="javascript:void(document.form1.submit())" class="btn btn-danger btn-block">
-                                                <i class="fas fa-cart-arrow-down"></i> カゴに入れる
+                                                <i class="bi bi-cart-plus"></i> カゴに入れる
                                             </a>
                                         </div>
                                     </div>
@@ -275,9 +275,9 @@
                                     <div class="attention"><!--{$arrErr[$add_favorite]}--></div>
                                 <!--{/if}-->
                                 <!--{if !$is_favorite}-->
-                                    <a href="javascript:eccube.changeAction('?product_id=<!--{$arrProduct.product_id|h}-->'); eccube.setModeAndSubmit('add_favorite','favorite_product_id','<!--{$arrProduct.product_id|h}-->');" class="btn btn-secondary btn-sm btn-block"><i class="far fa-heart"></i> お気に入りに追加</a>
+                                    <a href="javascript:eccube.changeAction('?product_id=<!--{$arrProduct.product_id|h}-->'); eccube.setModeAndSubmit('add_favorite','favorite_product_id','<!--{$arrProduct.product_id|h}-->');" class="btn btn-secondary btn-sm btn-block"><i class="bi bi-heart"></i> お気に入りに追加</a>
                                 <!--{else}-->
-                                    <button class="btn btn-secondary btn-sm btn-block" disabled="disabled"><i class="far fa-heart"></i> お気に入りに登録済み</button>
+                                    <button class="btn btn-secondary btn-sm btn-block" disabled="disabled"><i class="bi bi-heart"></i> お気に入りに登録済み</button>
                                 <!--{/if}-->
                             </div>
                         <!--{/if}-->
@@ -313,7 +313,7 @@
                                 </a><br>
                                 <span class="mini">
                                     <a href="<!--{$smarty.const.IMAGE_SAVE_URLPATH}--><!--{$arrProduct[$lkey]|h}-->" class="expansion" target="_blank">
-                                        <i class="fas fa-search-plus"></i> 画像を拡大する</a>
+                                        <i class="bi bi-arrows-fullscreen"></i> 画像を拡大する</a>
                                 </span>
                             <!--{/if}-->
                         </div>
@@ -330,7 +330,7 @@
 
     <!--この商品に対するお客様の声-->
     <div id="customervoice_area" class="mb-4">
-        <h3><i class="fas fa-comment"></i> この商品に対するお客様の声</h3>
+        <h3><i class="bi bi-chat"></i> この商品に対するお客様の声</h3>
 
         <div class="review_bloc clearfix alert alert-warning">
             <p>この商品に対するご感想をぜひお寄せください。</p>
@@ -340,7 +340,7 @@
                     <a href="./review.php"
                         onclick="eccube.openWindow('./review.php?product_id=<!--{$arrProduct.product_id}-->','review','600','640'); return false;"
                         target="_blank" class="btn btn-secondary btn-sm">
-                        <i class="fas fa-edit"></i> 新規コメントを書き込む
+                        <i class="bi bi-pencil-square"></i> 新規コメントを書き込む
                     </a>
                 <!--{/if}-->
             </div>
@@ -363,7 +363,7 @@
     <!--▼関連商品-->
     <!--{if $arrRecommend}-->
         <div id="whobought_area">
-            <h3><i class="far fa-thumbs-up"></i> その他のオススメ商品</h3>
+            <h3><i class="bi bi-hand-thumbs-up"></i> その他のオススメ商品</h3>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
             <!--{foreach from=$arrRecommend item=arrItem name="arrRecommend"}-->
                 <div class="product_item col mb-2">

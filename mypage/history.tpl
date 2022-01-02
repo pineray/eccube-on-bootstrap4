@@ -165,7 +165,7 @@
 
         <!--{if $is_price_change == true}-->
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <i class="fas fa-exclamation-circle"></i> 金額が変更されている商品があるため、再注文時はご注意ください。
+            <i class="bi bi-exclamation-circle-fill"></i> 金額が変更されている商品があるため、再注文時はご注意ください。
             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
             </button>
@@ -254,7 +254,7 @@
         <div class="list-group">
             <!--{section name=cnt loop=$tpl_arrMailHistory}-->
             <a class="list-group-item list-group-item-action" href="#" onclick="eccube.openWindow('./mail_view.php?send_id=<!--{$tpl_arrMailHistory[cnt].send_id}-->','mail_view','650','800'); return false;">
-                <span class="float-right"><i class="fas fa-chevron-right"></i></span>
+                <span class="float-right"><i class="bi bi-chevron-right"></i></span>
                 <div>配信日：<!--{$tpl_arrMailHistory[cnt].send_date|sfDispDBDate|h}--></div>
                 <!--{assign var=key value="`$tpl_arrMailHistory[cnt].template_id`"}-->
                 <div>通知メール：<!--{$arrMAILTEMPLATE[$key]|h}--></div>

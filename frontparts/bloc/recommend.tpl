@@ -22,7 +22,7 @@
     <!--{if count($arrBestProducts) > 0}-->
         <div class="block_outer clearfix">
             <div id="recommend_area">
-                <h2><i class="far fa-thumbs-up"></i> おすすめ商品情報</h2>
+                <h2><i class="bi bi-hand-thumbs-up"></i> おすすめ商品情報</h2>
                 <div class="block_body clearfix row row-cols-1 row-cols-lg-2">
                     <!--{foreach from=$arrBestProducts item=arrProduct name="recommend_products"}-->
                         <div class="product_item clearfix col">

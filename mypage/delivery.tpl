@@ -35,7 +35,7 @@
             <!--{if $tpl_login}-->
                 <div class="add_address row mb-3">
                     <div class="col-12 col-md-4">
-                        <a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php','delivadd','600','640',{menubar:'no'}); return false;" target="_blank" class="btn btn-secondary btn-block"><i class="fas fa-plus"></i> 新しいお届け先を追加</a>
+                        <a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php','delivadd','600','640',{menubar:'no'}); return false;" target="_blank" class="btn btn-secondary btn-block"><i class="bi bi-plus-lg"></i> 新しいお届け先を追加</a>
                     </div>
                 </div>
             <!--{/if}-->
@@ -68,10 +68,10 @@
                             <div class="col-12 col-md-4 text-right">
                                 <div class="btn-group" role="group">
                                     <a href="./delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php?other_deliv_id=<!--{$arrOtherDeliv[cnt].other_deliv_id}-->','deliv_disp','600','640'); return false;" class="btn btn-link btn-sm">
-                                        <i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span>
+                                        <i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span>
                                     </a>
                                     <a href="#" onclick="eccube.setModeAndSubmit('delete','other_deliv_id','<!--{$arrOtherDeliv[cnt].other_deliv_id}-->'); return false;" class="btn btn-link btn-sm">
-                                        <i class="far fa-trash-alt"></i> <span class="d-none d-sm-inline">削除</span>
+                                        <i class="bi bi-trash"></i> <span class="d-none d-sm-inline">削除</span>
                                     </a>
                                 </div>
                             </div>

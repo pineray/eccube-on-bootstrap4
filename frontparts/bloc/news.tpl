@@ -21,7 +21,7 @@
 <!--{strip}-->
     <div class="block_outer">
         <div id="news_area">
-            <h2><i class="far fa-newspaper"></i> 新着情報 <span class="rss"><a href="<!--{$smarty.const.ROOT_URLPATH}-->rss/<!--{$smarty.const.DIR_INDEX_PATH}-->" target="_blank"><i class="fas fa-rss-square"></i></a></span></h2>
+            <h2><i class="bi bi-newspaper"></i> 新着情報 <span class="rss"><a href="<!--{$smarty.const.ROOT_URLPATH}-->rss/<!--{$smarty.const.DIR_INDEX_PATH}-->" target="_blank"><i class="bi bi-rss-fill"></i></a></span></h2>
             <div class="block_body">
                 <div class="news_contents accordion" id="news-contents-accordion">
                 <!--{section name=data loop=$arrNews}-->
@@ -39,7 +39,7 @@
                             <!--{if $arrNews[data].news_url}-->
                             <p class="mt-3 mb-0">
                                 <a href="<!--{$arrNews[data].news_url}-->"<!--{if $arrNews[data].link_method eq "2"}--> target="_blank"<!--{/if}-->>
-                                    詳しくはこちら<!--{if $arrNews[data].link_method eq "2"}--> <i class="fas fa-external-link-alt"></i><!--{/if}-->
+                                    詳しくはこちら<!--{if $arrNews[data].link_method eq "2"}--> <i class="bi bi-box-arrow-up-right"></i><!--{/if}-->
                                 </a>
                             </p>
                             <!--{/if}-->

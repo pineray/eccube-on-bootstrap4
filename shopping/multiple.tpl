@@ -37,7 +37,7 @@
             <div class="addbtn mb-3 row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <a class="btn btn-secondary btn-block btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php?page=<!--{$smarty.server.SCRIPT_NAME|h}-->','new_deiv','600','640'); return false;">
-                        <i class="fas fa-plus"></i> 新しいお届け先を追加する
+                        <i class="bi bi-plus-lg"></i> 新しいお届け先を追加する
                     </a>
                 </div>
             </div>

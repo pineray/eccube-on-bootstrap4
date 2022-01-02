@@ -21,7 +21,7 @@
 <!--{strip}-->
     <div class="block_outer">
         <div id="login_area" class="card">
-            <h3 class="card-header"><i class="fas fa-sign-in-alt"></i> ログイン</h3>
+            <h3 class="card-header"><i class="bi bi-box-arrow-in-right"></i> ログイン</h3>
             <form name="login_form" id="login_form" method="post" action="<!--{$smarty.const.HTTPS_URL}-->frontparts/login_check.php"<!--{if $tpl_login}--> onsubmit="return eccube.checkLoginFormInputted('login_form')"<!--{/if}-->>
                 <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
                 <input type="hidden" name="mode" value="login" />

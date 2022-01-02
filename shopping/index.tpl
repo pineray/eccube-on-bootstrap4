@@ -27,7 +27,7 @@
                     <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
                     <input type="hidden" name="mode" value="login" />
 
-                    <h3><i class="fas fa-arrow-circle-right"></i> アカウントをお持ちの方</h3>
+                    <h3><i class="bi bi-arrow-right-circle-fill"></i> アカウントをお持ちの方</h3>
                     <p class="inputtext">会員の方は、登録時に入力されたメールアドレスとパスワードでログインしてください。</p>
                     <div class="inputbox card bg-light">
                         <div class="card-body">
@@ -62,7 +62,7 @@
                 </form>
             </div>
             <div class="login_area col-12 col-md-6 mb-4 mb-md-0">
-                <h3><i class="fas fa-arrow-circle-right"></i> 会員登録をして購入</h3>
+                <h3><i class="bi bi-arrow-right-circle-fill"></i> 会員登録をして購入</h3>
                 <p class="inputtext">会員登録をすると便利なMyページをご利用いただけます。<br />
                     また、ログインするだけで、毎回お名前や住所などを入力することなくスムーズにお買い物をお楽しみいただけます。
                 </p>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
 
-                <h3><i class="fas fa-arrow-circle-right"></i> 会員登録をせずに購入</h3>
+                <h3><i class="bi bi-arrow-right-circle-fill"></i> 会員登録をせずに購入</h3>
                 <p class="inputtext">会員登録をせずに購入手続きをされたい方は、下記よりお進みください。</p>
                 <form name="member_form2" id="member_form2" method="post" action="?">
                     <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />

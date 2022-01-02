@@ -27,7 +27,7 @@
 <!--{strip}-->
     <div class="block_outer">
         <div id="category_area" class="card">
-            <h3 class="card-header"><i class="fas fa-list"></i> 商品カテゴリ</h3>
+            <h3 class="card-header"><i class="bi bi-list-ul"></i> 商品カテゴリ</h3>
             <div class="block_body card-body">
                 <!--{include file="`$smarty.const.TEMPLATE_REALDIR`frontparts/bloc/category_tree_fork.tpl" children=$arrTree treeID="" display=1}-->
             </div>

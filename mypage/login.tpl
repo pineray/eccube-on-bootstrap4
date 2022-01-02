@@ -30,7 +30,7 @@
 
             <div class="row">
                 <div class="login_area col-12 col-md-6 mb-4 mb-mb-0">
-                    <h3><i class="fas fa-arrow-circle-right"></i> アカウントをお持ちの方</h3>
+                    <h3><i class="bi bi-arrow-right-circle-fill"></i> アカウントをお持ちの方</h3>
                     <p class="inputtext">会員の方は、登録時に入力されたメールアドレスとパスワードでログインしてください。</p>
                     <div class="inputbox card bg-light">
                         <div class="card-body">
@@ -65,7 +65,7 @@
                 </div>
 
                 <div class="login_area col-12 col-md-6 mb-4 mb-mb-0">
-                    <h3><i class="fas fa-arrow-circle-right"></i> アカウントの作成</h3>
+                    <h3><i class="bi bi-arrow-right-circle-fill"></i> アカウントの作成</h3>
                     <p class="inputtext">会員登録をすると便利なMyページをご利用いただけます。<br />
                         また、ログインするだけで、毎回お名前や住所などを入力することなくスムーズにお買い物をお楽しみいただけます。
                     </p>

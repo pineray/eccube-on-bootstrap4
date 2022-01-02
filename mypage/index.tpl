@@ -41,7 +41,7 @@
                 <div class="list-group">
                     <!--{section name=cnt loop=$arrOrder}-->
                         <a class="list-group-item list-group-item-action" href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/history.php?order_id=<!--{$arrOrder[cnt].order_id}-->">
-                            <span class="float-right"><i class="fas fa-chevron-right"></i></span>
+                            <span class="float-right"><i class="bi bi-chevron-right"></i></span>
                             <div><strong>注文番号：</strong><!--{$arrOrder[cnt].order_id}--></div>
                             <div><strong>購入日時：</strong><!--{$arrOrder[cnt].create_date|sfDispDBDate}--></div>
                             <!--{assign var=payment_id value="`$arrOrder[cnt].payment_id`"}-->

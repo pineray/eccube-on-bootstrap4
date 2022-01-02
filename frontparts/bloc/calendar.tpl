@@ -21,7 +21,7 @@
 <!--{strip}-->
     <div class="block_outer">
         <div id="calender_area" class="card">
-            <h3 class="card-header"><i class="far fa-calendar-alt"></i> カレンダー</h3>
+            <h3 class="card-header"><i class="bi bi-calendar3"></i> カレンダー</h3>
             <div class="block_body card-body">
                 <!--{section name=num loop=$arrCalendar}-->
                     <!--{assign var=arrCal value=$arrCalendar[num]}-->

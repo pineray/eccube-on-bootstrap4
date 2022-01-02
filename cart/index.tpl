@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="col">
                                             <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->', 'cartDelete', 'cart_no', '<!--{$item.cart_no|h}-->'); return false;" class="btn btn-sm btn-link float-right">
-                                                <i class="far fa-trash-alt"></i> <span class="d-none d-sm-inline">削除</span>
+                                                <i class="bi bi-trash"></i> <span class="d-none d-sm-inline">削除</span>
                                             </a>
                                             <div class="cart-item-title">
                                                 <!--{* 商品名 *}--><strong><!--{$item.productsClass.name|h}--></strong>
@@ -117,9 +117,9 @@
                                                 <div>
                                                     数量: <!--{$item.quantity|h}-->
                                                     <div class="btn-group btn-group-sm" role="group">
-                                                        <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','up','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="fas fa-plus"></i></a>
+                                                        <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','up','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="bi bi-plus-lg"></i></a>
                                                         <!--{if $item.quantity > 1}-->
-                                                            <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','down','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="fas fa-minus"></i></a>
+                                                            <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','down','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="bi bi-dash-lg"></i></a>
                                                         <!--{/if}-->
                                                     </div>
                                                 </div>
@@ -132,9 +132,9 @@
                                         <div>
                                             数量: <!--{$item.quantity|h}-->
                                             <div class="btn-group btn-group-sm" role="group">
-                                                <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','up','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="fas fa-plus"></i></a>
+                                                <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','up','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="bi bi-plus-lg"></i></a>
                                                 <!--{if $item.quantity > 1}-->
-                                                    <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','down','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="fas fa-minus"></i></a>
+                                                    <a href="?" onclick="eccube.fnFormModeSubmit('form<!--{$key|h}-->','down','cart_no','<!--{$item.cart_no|h}-->'); return false" class="btn btn-secondary"><i class="bi bi-dash-lg"></i></a>
                                                 <!--{/if}-->
                                             </div>
                                         </div>

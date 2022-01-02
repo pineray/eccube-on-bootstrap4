@@ -36,7 +36,7 @@
             <!--{if $smarty.const.USE_MULTIPLE_SHIPPING !== false}-->
                 <div class="add_multiple mb-3">
                     <a class="btn btn-outline-secondary btn-block" href="javascript:;" onclick="eccube.setModeAndSubmit('multiple', '', ''); return false">
-                        <i class="fas fa-boxes"></i> 複数のお届け先に送りますか？
+                        <i class="bi bi-boxes"></i> 複数のお届け先に送りますか？
                     </a>
                 </div>
             <!--{/if}-->
@@ -71,10 +71,10 @@
                             <!--{if !$smarty.section.cnt.first}-->
                             <div class="btn-group btn-group-sm">
                                 <a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php?page=<!--{$smarty.server.SCRIPT_NAME|h}-->&amp;other_deliv_id=<!--{$arrAddr[cnt].other_deliv_id}-->','new_deiv','600','640'); return false;" class="btn btn-link">
-                                    <i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span>
+                                    <i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span>
                                 </a>
                                 <a href="?" onclick="eccube.setModeAndSubmit('delete', 'other_deliv_id', '<!--{$arrAddr[cnt].other_deliv_id}-->'); return false" class="btn btn-link">
-                                    <i class="far fa-trash-alt"></i> <span class="d-none d-sm-inline">削除</span>
+                                    <i class="bi bi-trash"></i> <span class="d-none d-sm-inline">削除</span>
                                 </a>
                             </div>
                             <!--{/if}-->
@@ -92,7 +92,7 @@
                 <!--{/section}-->
                 <!--{if $tpl_addrmax < $smarty.const.DELIV_ADDR_MAX}-->
                     <a class="list-group-item list-group-item-action" href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php?page=<!--{$smarty.server.SCRIPT_NAME|h}-->','new_deiv','600','640'); return false;">
-                        <i class="fas fa-plus"></i> 新しいお届け先を追加する
+                        <i class="bi bi-plus-lg"></i> 新しいお届け先を追加する
                     </a>
                 <!--{/if}-->
             </div>

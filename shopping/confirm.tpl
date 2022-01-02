@@ -49,7 +49,7 @@
 
             <h3 class="mt-4 d-flex justify-content-between">
                <span>ご注文内容</span>
-               <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-link"><i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
+               <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-link"><i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
             </h3>
             <div class="list-group list-group-flush">
                 <!--{foreach from=$arrCartItems item=item}-->
@@ -153,9 +153,9 @@
             <h3 class="mt-4 d-flex justify-content-between">
                 <span>ご注文者</span>
                 <!--{if !$smarty.session.customer}-->
-                    <a href="./?mode=nonmember" class="btn btn-link"><i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
+                    <a href="./?mode=nonmember" class="btn btn-link"><i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
                 <!--{else}-->
-                    <a href="<!--{$smarty.const.HTTPS_URL}-->mypage/change.php" class="btn btn-link"><i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
+                    <a href="<!--{$smarty.const.HTTPS_URL}-->mypage/change.php" class="btn btn-link"><i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
                 <!--{/if}-->
             </h3>
             <div class="customer card">
@@ -188,7 +188,7 @@
             <!--{if $arrShipping}-->
                 <h3 class="mt-4 d-flex justify-content-between">
                     <span>お届け先<!--{if $is_multiple}--><!--{$smarty.foreach.shippingItem.iteration}--><!--{/if}--></span>
-                    <a href="./payment.php?mode=return" class="btn btn-link"><i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
+                    <a href="./payment.php?mode=return" class="btn btn-link"><i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
                 </h3>
             <!--{/if}-->
             <!--{foreach item=shippingItem from=$arrShipping name=shippingItem}-->
@@ -278,7 +278,7 @@
 
             <h3 class="mt-4 d-flex justify-content-between">
                 <span>配送方法・お支払方法など</span>
-                <a href="./payment.php" class="btn btn-link"><i class="fas fa-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
+                <a href="./payment.php" class="btn btn-link"><i class="bi bi-pen"></i> <span class="d-none d-sm-inline">変更</span></a>
             </h3>
             <div class="list-group">
                 <div class="list-group-item">

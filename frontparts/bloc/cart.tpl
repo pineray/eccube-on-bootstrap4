@@ -21,7 +21,7 @@
 <!--{strip}-->
     <div class="block_outer">
         <div id="cart_area" class="card">
-            <h3 class="cart card-header"><span class="title"><i class="fas fa-shopping-cart"></i> 現在のカゴの中</span></h3>
+            <h3 class="cart card-header"><span class="title"><i class="bi bi-cart"></i> 現在のカゴの中</span></h3>
             <ul class="list-group list-group-flush">
                 <li class="item list-group-item d-flex justify-content-between">
                     <div>合計数量</div>

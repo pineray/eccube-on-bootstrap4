@@ -21,7 +21,7 @@
 <!--{strip}-->
     <div class="block_outer">
         <div id="search_area" class="card">
-            <h3 class="card-header"><span class="title"><i class="fas fa-search"></i> 検索条件</span></h3>
+            <h3 class="card-header"><span class="title"><i class="bi bi-search"></i> 検索条件</span></h3>
             <div class="block_body card-body">
                 <!--検索フォーム-->
                 <form name="search_form" id="search_form" method="get" action="<!--{$smarty.const.ROOT_URLPATH}-->products/list.php">
