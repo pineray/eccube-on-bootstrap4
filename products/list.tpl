@@ -204,7 +204,7 @@
                 <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME}-->" value="<!--{$transactionid}-->" />
                 <!--{if $tpl_linemax > 0}--><!--{$smarty.capture.page_navi_body nofilter}--><!--{/if}-->
             </form>
-            <div class="navi pagination d-none d-sm-block"><!--{$tpl_strnavi}--></div>
+            <div class="navi pagination d-none d-sm-block"><!--{$tpl_strnavi nofilter}--></div>
             <!--▲ページナビ(下部)-->
         <!--{/if}-->
 
