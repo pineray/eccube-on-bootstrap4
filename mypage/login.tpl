@@ -55,7 +55,7 @@
                                     <div class="invalid-feedback"><!--{$arrErr[$key]}--></div>
                                 <!--{/if}-->
                             </div>
-                            <input type="submit" class="btn btn-primary btn-block" value="ログイン" name="log" id="log" />
+                            <input type="submit" class="btn btn-primary w-100" value="ログイン" name="log" id="log" />
                         </div>
                     </div>
                     <div class="alert alert-warning mt-3">
@@ -71,7 +71,7 @@
                     </p>
                     <div class="inputbox card bg-light">
                         <div class="btn_area card-body">
-                            <a href="<!--{$smarty.const.ROOT_URLPATH}-->entry/kiyaku.php" class="btn btn-danger btn-block">
+                            <a href="<!--{$smarty.const.ROOT_URLPATH}-->entry/kiyaku.php" class="btn btn-danger w-100">
                                 会員登録をする
                             </a>
                         </div>

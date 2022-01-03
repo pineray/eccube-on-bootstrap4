@@ -30,9 +30,9 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
                         <!--{if $return_top}-->
-                            <a href="<!--{$smarty.const.TOP_URL}-->" class="btn btn-primary btn-block">トップページへ</a>
+                            <a href="<!--{$smarty.const.TOP_URL}-->" class="btn btn-primary w-100">トップページへ</a>
                         <!--{else}-->
-                            <a href="javascript:history.back()" class="btn btn-primary btn-block">戻る</a>
+                            <a href="javascript:history.back()" class="btn btn-primary w-100">戻る</a>
                         <!--{/if}-->
                     </div>
                 </div>

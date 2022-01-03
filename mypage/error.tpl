@@ -26,7 +26,7 @@
 </div>
 
 <div class="button">
-    <a href="javascript:window.close()" class="btn btn-secondary btn-block">閉じる</a>
+    <a href="javascript:window.close()" class="btn btn-secondary w-100">閉じる</a>
 </div>
 
 <!--{include file="`$smarty.const.TEMPLATE_REALDIR`popup_footer.tpl"}-->

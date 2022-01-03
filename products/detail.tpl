@@ -254,7 +254,7 @@
                                     <div class="cartin_btn">
                                         <div id="cartbtn_default">
                                             <!--★カゴに入れる★-->
-                                            <a href="javascript:void(document.form1.submit())" class="btn btn-danger btn-block">
+                                            <a href="javascript:void(document.form1.submit())" class="btn btn-danger w-100">
                                                 <i class="bi bi-cart-plus"></i> カゴに入れる
                                             </a>
                                         </div>
@@ -275,9 +275,9 @@
                                     <div class="attention"><!--{$arrErr[$add_favorite]}--></div>
                                 <!--{/if}-->
                                 <!--{if !$is_favorite}-->
-                                    <a href="javascript:eccube.changeAction('?product_id=<!--{$arrProduct.product_id|h}-->'); eccube.setModeAndSubmit('add_favorite','favorite_product_id','<!--{$arrProduct.product_id|h}-->');" class="btn btn-secondary btn-sm btn-block"><i class="bi bi-heart"></i> お気に入りに追加</a>
+                                    <a href="javascript:eccube.changeAction('?product_id=<!--{$arrProduct.product_id|h}-->'); eccube.setModeAndSubmit('add_favorite','favorite_product_id','<!--{$arrProduct.product_id|h}-->');" class="btn btn-secondary btn-sm w-100"><i class="bi bi-heart"></i> お気に入りに追加</a>
                                 <!--{else}-->
-                                    <button class="btn btn-secondary btn-sm btn-block" disabled="disabled"><i class="bi bi-heart"></i> お気に入りに登録済み</button>
+                                    <button class="btn btn-secondary btn-sm w-100" disabled="disabled"><i class="bi bi-heart"></i> お気に入りに登録済み</button>
                                 <!--{/if}-->
                             </div>
                         <!--{/if}-->

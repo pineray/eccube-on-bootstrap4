@@ -36,7 +36,7 @@
             <div class="btn_area py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
-                        <input type="submit" class="btn btn-primary btn-block" value="確認ページへ" name="confirm" id="confirm" />
+                        <input type="submit" class="btn btn-primary w-100" value="確認ページへ" name="confirm" id="confirm" />
                     </div>
                 </div>
             </div>

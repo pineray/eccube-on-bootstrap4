@@ -47,7 +47,7 @@
                         <label for="search-form-name">商品名を入力</label>
                         <input type="text" id="search-form-name" name="name" class="box140 form-control" maxlength="50" value="<!--{$smarty.get.name|h}-->" />
                     </div>
-                    <input type="submit" class="btn btn-block btn-secondary" value="検索" name="search" />
+                    <input type="submit" class="btn w-100 btn-secondary" value="検索" name="search" />
                 </form>
             </div>
         </div>

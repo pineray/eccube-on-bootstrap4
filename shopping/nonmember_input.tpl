@@ -58,16 +58,16 @@
                 <div class="row justify-content-center">
                     <!--{if $smarty.const.USE_MULTIPLE_SHIPPING !== false}-->
                         <div class="col-12 col-md-6">
-                            <input type="submit" class="btn btn-primary btn-block" value="上記のお届け先のみ" name="singular" id="singular" />
+                            <input type="submit" class="btn btn-primary w-100" value="上記のお届け先のみ" name="singular" id="singular" />
                         </div>
                         <div class="col-12 col-md-6">
-                            <a class="btn btn-primary btn-block" href="javascript:;" onclick="eccube.setModeAndSubmit('multiple', '', ''); return false">
+                            <a class="btn btn-primary w-100" href="javascript:;" onclick="eccube.setModeAndSubmit('multiple', '', ''); return false">
                                 複数のお届け先に送る
                             </a>
                         </div>
                     <!--{else}-->
                         <div class="col-12 col-md-6">
-                            <input type="submit" class="btn btn-primary btn-block" value="次へ" name="singular" id="singular" />
+                            <input type="submit" class="btn btn-primary w-100" value="次へ" name="singular" id="singular" />
                         </div>
                     <!--{/if}-->
                 </div>

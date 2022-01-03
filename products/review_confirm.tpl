@@ -49,10 +49,10 @@
         <div class="btn_area py-4">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
-                    <input type="submit" class="btn btn-primary btn-block" value="完了ページへ" name="send" id="send" />
+                    <input type="submit" class="btn btn-primary w-100" value="完了ページへ" name="send" id="send" />
                 </div>
                 <div class="col-12 col-md-4 order-md-first mt-2 mt-md-0">
-                    <a href="?" onclick="eccube.setModeAndSubmit('return', '', ''); return false;" class="btn btn-secondary btn-block">
+                    <a href="?" onclick="eccube.setModeAndSubmit('return', '', ''); return false;" class="btn btn-secondary w-100">
                         戻る
                     </a>
                 </div>

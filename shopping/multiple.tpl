@@ -36,7 +36,7 @@
         <!--{if $tpl_addrmax < $smarty.const.DELIV_ADDR_MAX}-->
             <div class="addbtn mb-3 row">
                 <div class="col-12 col-md-6 col-lg-4">
-                    <a class="btn btn-secondary btn-block btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php?page=<!--{$smarty.server.SCRIPT_NAME|h}-->','new_deiv','600','640'); return false;">
+                    <a class="btn btn-secondary w-100 btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php?page=<!--{$smarty.server.SCRIPT_NAME|h}-->','new_deiv','600','640'); return false;">
                         <i class="bi bi-plus-lg"></i> 新しいお届け先を追加する
                     </a>
                 </div>
@@ -117,10 +117,10 @@
             <div class="btn_area py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
-                        <input type="submit" class="btn btn-primary btn-block" value="選択したお届け先に送る" name="send_button" id="send_button" />
+                        <input type="submit" class="btn btn-primary w-100" value="選択したお届け先に送る" name="send_button" id="send_button" />
                     </div>
                     <div class="col-12 col-md-4 order-md-first mt-2 mt-md-0">
-                        <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-secondary btn-block">
+                        <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-secondary w-100">
                             戻る
                         </a>
                     </div>

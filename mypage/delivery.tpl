@@ -35,7 +35,7 @@
             <!--{if $tpl_login}-->
                 <div class="add_address row mb-3">
                     <div class="col-12 col-md-4">
-                        <a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php','delivadd','600','640',{menubar:'no'}); return false;" target="_blank" class="btn btn-secondary btn-block"><i class="bi bi-plus-lg"></i> 新しいお届け先を追加</a>
+                        <a href="<!--{$smarty.const.ROOT_URLPATH}-->mypage/delivery_addr.php" onclick="eccube.openWindow('./delivery_addr.php','delivadd','600','640',{menubar:'no'}); return false;" target="_blank" class="btn btn-secondary w-100"><i class="bi bi-plus-lg"></i> 新しいお届け先を追加</a>
                     </div>
                 </div>
             <!--{/if}-->

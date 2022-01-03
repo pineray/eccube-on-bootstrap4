@@ -299,13 +299,13 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
                     <!--{if $use_module}-->
-                        <input type="submit" onclick="return fnCheckSubmit();" class="btn btn-primary btn-block" value="次へ" name="next" id="next" />
+                        <input type="submit" onclick="return fnCheckSubmit();" class="btn btn-primary w-100" value="次へ" name="next" id="next" />
                     <!--{else}-->
-                        <input type="submit" onclick="return fnCheckSubmit();" class="btn btn-primary btn-block" value="ご注文完了ページへ" name="next" id="next" />
+                        <input type="submit" onclick="return fnCheckSubmit();" class="btn btn-primary w-100" value="ご注文完了ページへ" name="next" id="next" />
                     <!--{/if}-->
                     </div>
                     <div class="col-12 col-md-4 order-md-first mt-2 mt-md-0">
-                        <a href="./payment.php" class="btn btn-secondary btn-block">
+                        <a href="./payment.php" class="btn btn-secondary w-100">
                             戻る
                         </a>
                     </div>

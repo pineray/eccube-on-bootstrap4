@@ -33,7 +33,7 @@
             <!--{/if}-->
         </div>
         <div class="btn_area">
-            <a href="javascript:window.close()" class="btn btn-primary btn-block">閉じる</a>
+            <a href="javascript:window.close()" class="btn btn-primary w-100">閉じる</a>
         </div>
     </form>
 </div>

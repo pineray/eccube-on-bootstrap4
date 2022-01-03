@@ -35,7 +35,7 @@
                             <!--{/if}-->
                         </p>
                         <!--{if !$tpl_disable_logout}-->
-                            <input type="submit" class="btn btn-block btn-secondary" onclick="eccube.fnFormModeSubmit('login_form', 'logout', '', ''); return false;" value="ログアウト" />
+                            <input type="submit" class="btn w-100 btn-secondary" onclick="eccube.fnFormModeSubmit('login_form', 'logout', '', ''); return false;" value="ログアウト" />
                         <!--{/if}-->
                     <!--{else}-->
                         <div class="formlist mb-3">
@@ -53,7 +53,7 @@
                                 <small><a href="<!--{$smarty.const.HTTPS_URL}-->forgot/<!--{$smarty.const.DIR_INDEX_PATH}-->" onclick="eccube.openWindow('<!--{$smarty.const.HTTPS_URL}-->forgot/<!--{$smarty.const.DIR_INDEX_PATH}-->','forget','600','480'); return false;" target="_blank">パスワードを忘れた方はこちら</a></small>
                             </p>
                         </div>
-                        <input type="submit" class="btn btn-block btn-secondary" value="ログイン" />
+                        <input type="submit" class="btn w-100 btn-secondary" value="ログイン" />
                     <!--{/if}-->
                 </div>
             </form>

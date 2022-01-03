@@ -162,11 +162,11 @@
                         <div class="btn_area card-footer">
                             <div class="row justify-content-center">
                                 <div class="col-12 col-md-6">
-                                    <input type="submit" class="btn btn-primary btn-block" value="購入手続きへ" name="confirm" />
+                                    <input type="submit" class="btn btn-primary w-100" value="購入手続きへ" name="confirm" />
                                 </div>
                                 <!--{if $tpl_prev_url != ""}-->
                                     <div class="col-12 col-md-4 order-md-first mt-2 mt-md-0">
-                                        <a href="<!--{$tpl_prev_url|h}-->" class="btn btn-secondary btn-block">戻る</a>
+                                        <a href="<!--{$tpl_prev_url|h}-->" class="btn btn-secondary w-100">戻る</a>
                                     </div>
                                 <!--{/if}-->
                             </div>

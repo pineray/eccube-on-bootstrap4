@@ -30,7 +30,7 @@
     <div class="btn_area py-4">
         <div class="row justify-content-center">
             <div class="col-12 col-md-4 order-md-first mt-2 mt-md-0">
-                <a href="javascript:window.close()" class="btn btn-secondary btn-block">
+                <a href="javascript:window.close()" class="btn btn-secondary w-100">
                     閉じる
                 </a>
             </div>

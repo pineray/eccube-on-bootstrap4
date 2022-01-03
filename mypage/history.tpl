@@ -176,7 +176,7 @@
             <input type="hidden" name="order_id" value="<!--{$tpl_arrOrderData.order_id|h}-->" />
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
-                    <input type="submit" class="btn btn-primary btn-block" value="この購入内容で再注文する" name="submit" />
+                    <input type="submit" class="btn btn-primary w-100" value="この購入内容で再注文する" name="submit" />
                 </div>
             </div>
         </form>
@@ -266,7 +266,7 @@
         <div class="btn_area py-4">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
-                    <a class="btn btn-secondary btn-block" href="./<!--{$smarty.const.DIR_INDEX_PATH}-->">戻る</a>
+                    <a class="btn btn-secondary w-100" href="./<!--{$smarty.const.DIR_INDEX_PATH}-->">戻る</a>
                 </div>
             </div>
         </div>

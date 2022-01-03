@@ -140,7 +140,7 @@
                 &nbsp;<span class="mini">郵便番号を入力後、クリックしてください。</span>
             </p>
             <div class="d-sm-none mt-3">
-                <a class="btn btn-secondary btn-block btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->input_zip.php" onclick="eccube.getAddress('<!--{$smarty.const.INPUT_ZIP_URLPATH}-->', '<!--{$key1}-->', '<!--{$key2}-->', '<!--{$key3}-->', '<!--{$key4}-->'); return false;" target="_blank">
+                <a class="btn btn-secondary w-100 btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->input_zip.php" onclick="eccube.getAddress('<!--{$smarty.const.INPUT_ZIP_URLPATH}-->', '<!--{$key1}-->', '<!--{$key2}-->', '<!--{$key3}-->', '<!--{$key4}-->'); return false;" target="_blank">
                     郵便番号から住所自動入力
                 </a>
             </div>

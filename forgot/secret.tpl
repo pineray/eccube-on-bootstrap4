@@ -50,7 +50,7 @@
             </div>
         </div>
         <div class="btn_area">
-            <input type="submit" class="btn btn-primary btn-block" value="次へ" name="next" id="next" />
+            <input type="submit" class="btn btn-primary w-100" value="次へ" name="next" id="next" />
         </div>
     </form>
 </div>

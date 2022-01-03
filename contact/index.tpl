@@ -107,7 +107,7 @@
                             &nbsp;<span class="mini">郵便番号を入力後、クリックしてください。</span>
                         </p>
                         <div class="d-sm-none mt-3">
-                            <a class="btn btn-secondary btn-block btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->input_zip.php" onclick="eccube.getAddress('<!--{$smarty.const.INPUT_ZIP_URLPATH}-->', '<!--{$key1}-->', '<!--{$key2}-->', '<!--{$key3}-->', '<!--{$key4}-->'); return false;" target="_blank">
+                            <a class="btn btn-secondary w-100 btn-sm" href="<!--{$smarty.const.ROOT_URLPATH}-->input_zip.php" onclick="eccube.getAddress('<!--{$smarty.const.INPUT_ZIP_URLPATH}-->', '<!--{$key1}-->', '<!--{$key2}-->', '<!--{$key3}-->', '<!--{$key4}-->'); return false;" target="_blank">
                                 郵便番号から住所自動入力
                             </a>
                         </div>
@@ -227,7 +227,7 @@
             <div class="btn_area py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
-                        <input type="submit" class="btn btn-primary btn-block" value="確認ページへ" name="confirm" id="confirm" />
+                        <input type="submit" class="btn btn-primary w-100" value="確認ページへ" name="confirm" id="confirm" />
                     </div>
                 </div>
             </div>

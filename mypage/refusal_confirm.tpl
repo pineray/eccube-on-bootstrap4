@@ -38,10 +38,10 @@
                     <div class="btn_area">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-4">
-                                <input type="submit" class="btn btn-secondary btn-block" value="はい、退会します" name="send" id="send" />
+                                <input type="submit" class="btn btn-secondary w-100" value="はい、退会します" name="send" id="send" />
                             </div>
                             <div class="col-12 col-md-6 order-md-first mt-2 mt-md-0">
-                                <a href="./refusal.php" class="btn btn-primary btn-block">
+                                <a href="./refusal.php" class="btn btn-primary w-100">
                                     いいえ、退会しません
                                 </a>
                             </div>

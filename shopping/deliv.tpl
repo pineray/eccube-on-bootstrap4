@@ -35,7 +35,7 @@
             </div>
             <!--{if $smarty.const.USE_MULTIPLE_SHIPPING !== false}-->
                 <div class="add_multiple mb-3">
-                    <a class="btn btn-outline-secondary btn-block" href="javascript:;" onclick="eccube.setModeAndSubmit('multiple', '', ''); return false">
+                    <a class="btn btn-outline-secondary w-100" href="javascript:;" onclick="eccube.setModeAndSubmit('multiple', '', ''); return false">
                         <i class="bi bi-boxes"></i> 複数のお届け先に送りますか？
                     </a>
                 </div>
@@ -100,10 +100,10 @@
             <div class="btn_area py-4">
                 <div class="row justify-content-center">
                     <div class="col-12 col-md-6">
-                        <input type="submit" class="btn btn-primary btn-block" value="選択したお届け先に送る" name="send_button" id="send_button" />
+                        <input type="submit" class="btn btn-primary w-100" value="選択したお届け先に送る" name="send_button" id="send_button" />
                     </div>
                     <div class="col-12 col-md-4 order-md-first mt-2 mt-md-0">
-                        <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-secondary btn-block">
+                        <a href="<!--{$smarty.const.CART_URL}-->" class="btn btn-secondary w-100">
                             戻る
                         </a>
                     </div>
