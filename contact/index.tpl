@@ -83,15 +83,15 @@
                 <div class="form-group row">
                     <div class="col-12 col-sm-3 col-form-label">郵便番号<span class="attention">※</span></div>
                     <div class="col">
-                        <div class="form-row no-gutter<!--{if $arrErr[$key1] || $arrErr[$key2]}--> is-invalid<!--{/if}-->">
-                            <div class="col">
-                                <input type="text" id="<!--{$key1}-->" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|default:$arrData[$key1]|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key1]}--> is-invalid<!--{/if}-->" />
+                        <div class="form-row mx-0<!--{if $arrErr[$key1] || $arrErr[$key2]}--> is-invalid<!--{/if}-->">
+                            <div class="col col-sm-auto">
+                                <input type="text" id="<!--{$key1}-->" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|default:$arrData[$key1]|h}-->" size="3" maxlength="<!--{$arrForm[$key1].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key1]}--> is-invalid<!--{/if}-->" />
                             </div>
-                            <label class="col-auto">-</label>
-                            <div class="col">
-                                <input type="text" id="<!--{$key2}-->" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|default:$arrData[$key2]|h}-->" maxlength="<!--{$arrForm[$key2].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key2]}--> is-invalid<!--{/if}-->" />
+                            <label class="col-auto col-form-label px-1 px-sm-2">-</label>
+                            <div class="col col-sm-auto">
+                                <input type="text" id="<!--{$key2}-->" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|default:$arrData[$key2]|h}-->" size="4" maxlength="<!--{$arrForm[$key2].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key2]}--> is-invalid<!--{/if}-->" />
                             </div>
-                            <div class="col col-form-label">
+                            <div class="col col-form-label pl-1 pl-sm-2">
                                 <a href="https://www.post.japanpost.jp/zipcode/" target="_blank"><span class="mini">郵便番号検索</span></a>
                             </div>
                         </div>
@@ -157,17 +157,17 @@
                             <!--{assign var=key1 value="tel01"}-->
                             <!--{assign var=key2 value="tel02"}-->
                             <!--{assign var=key3 value="tel03"}-->
-                            <div class="form-row<!--{if $arrErr[$key1] || $arrErr[$key2] || $arrErr[$key3]}--> is-invalid<!--{/if}-->">
-                                <div class="col">
-                                    <input type="text" id="<!--{$key1}-->" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|default:$arrData[$key1]|h}-->" maxlength="<!--{$arrForm[$key1].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key1]}--> is-invalid<!--{/if}-->" />
+                            <div class="form-row mx-0<!--{if $arrErr[$key1] || $arrErr[$key2] || $arrErr[$key3]}--> is-invalid<!--{/if}-->">
+                                <div class="col col-sm-auto">
+                                    <input type="text" id="<!--{$key1}-->" name="<!--{$key1}-->" value="<!--{$arrForm[$key1].value|default:$arrData[$key1]|h}-->" size="5" maxlength="<!--{$arrForm[$key1].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key1]}--> is-invalid<!--{/if}-->" />
                                 </div>
-                                <div class="col col-auto">-</div>
-                                <div class="col">
-                                    <input type="text" id="<!--{$key2}-->" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|default:$arrData[$key2]|h}-->" maxlength="<!--{$arrForm[$key2].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key2]}--> is-invalid<!--{/if}-->" />
+                                <div class="col-auto col-form-label px-1 px-sm-2">-</div>
+                                <div class="col col-sm-auto">
+                                    <input type="text" id="<!--{$key2}-->" name="<!--{$key2}-->" value="<!--{$arrForm[$key2].value|default:$arrData[$key2]|h}-->" size="5" maxlength="<!--{$arrForm[$key2].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key2]}--> is-invalid<!--{/if}-->" />
                                 </div>
-                                <div class="col col-auto">-</div>
-                                <div class="col">
-                                    <input type="text" id="<!--{$key3}-->" name="<!--{$key3}-->" value="<!--{$arrForm[$key3].value|default:$arrData[$key3]|h}-->" maxlength="<!--{$arrForm[$key3].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key3]}--> is-invalid<!--{/if}-->" />
+                                <div class="col-auto col-form-label px-1 px-sm-2">-</div>
+                                <div class="col col-sm-auto">
+                                    <input type="text" id="<!--{$key3}-->" name="<!--{$key3}-->" value="<!--{$arrForm[$key3].value|default:$arrData[$key3]|h}-->" size="5" maxlength="<!--{$arrForm[$key3].length}-->" style="ime-mode: disabled;" class="box60 form-control<!--{if $arrErr[$key3]}--> is-invalid<!--{/if}-->" />
                                 </div>
                             </div>
                             <!--{if $arrErr[$key1] || $arrErr[$key2] || $arrErr[$key3]}-->
