@@ -146,7 +146,7 @@
 
                 <div class="listrightbloc col-7 col-sm-12">
                     <!--▼商品ステータス-->
-                    <!--{if count($productStatus[$id]) > 0}-->
+                    <!--{if !empty($productStatus[$id])}-->
                         <div class="status_icon">
                         <!--{foreach from=$productStatus[$id] item=status}-->
                             <span class="badge

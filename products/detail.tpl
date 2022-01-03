@@ -335,7 +335,7 @@
         <div class="review_bloc clearfix alert alert-warning">
             <p>この商品に対するご感想をぜひお寄せください。</p>
             <div class="review_btn">
-                <!--{if count($arrReview) < $smarty.const.REVIEW_REGIST_MAX}-->
+                <!--{if is_array($arrReview) && count($arrReview) < $smarty.const.REVIEW_REGIST_MAX}-->
                     <!--★新規コメントを書き込む★-->
                     <a href="./review.php"
                         onclick="eccube.openWindow('./review.php?product_id=<!--{$arrProduct.product_id}-->','review','600','640'); return false;"
@@ -346,7 +346,7 @@
             </div>
         </div>
 
-        <!--{if count($arrReview) > 0}-->
+        <!--{if !empty($arrReview)}-->
             <!--{section name=cnt loop=$arrReview}-->
                 <div class="card mt-2">
                     <div class="card-body">

@@ -22,18 +22,16 @@
     <div id="undercolumn_cart">
         <h2 class="title"><!--{$tpl_title|h}--></h2>
 
-        <!--{if $smarty.const.USE_POINT !== false || count($arrProductsClass) > 0}-->
+        <!--{if $smarty.const.USE_POINT !== false && !empty($arrProductsClass)}-->
             <!--★ポイント案内★-->
-            <!--{if $smarty.const.USE_POINT !== false}-->
-                <div class="point_announce alert alert-info">
-                    <!--{if $tpl_login}-->
-                        <span class="user_name"><!--{$tpl_name|h}--> 様</span>の、現在の所持ポイントは「<span class="point"><!--{$tpl_user_point|n2s|default:0|h}--> pt</span>」です。<br />
-                    <!--{else}-->
-                        ポイント制度をご利用になられる場合は、会員登録後ログインしてくださいますようお願い致します。<br />
-                    <!--{/if}-->
-                    ポイントは商品購入時に<span class="price">1pt＝<!--{$smarty.const.POINT_VALUE|h}-->円</span>として使用することができます。<br />
-                </div>
-            <!--{/if}-->
+            <div class="point_announce alert alert-info">
+                <!--{if $tpl_login}-->
+                    <span class="user_name"><!--{$tpl_name|h}--> 様</span>の、現在の所持ポイントは「<span class="point"><!--{$tpl_user_point|n2s|default:0|h}--> pt</span>」です。<br />
+                <!--{else}-->
+                    ポイント制度をご利用になられる場合は、会員登録後ログインしてくださいますようお願い致します。<br />
+                <!--{/if}-->
+                ポイントは商品購入時に<span class="price">1pt＝<!--{$smarty.const.POINT_VALUE|h}-->円</span>として使用することができます。<br />
+            </div>
         <!--{/if}-->
 
         <div class="totalmoney_area">
@@ -54,7 +52,7 @@
             <!--{/if}-->
         </div>
 
-        <!--{if count($cartItems) > 0}-->
+        <!--{if !empty($cartItems)}-->
             <!--{foreach from=$cartKeys item=key}-->
                 <form name="form<!--{$key|h}-->" id="form<!--{$key|h}-->" method="post" action="?">
                     <input type="hidden" name="<!--{$smarty.const.TRANSACTION_ID_NAME|h}-->" value="<!--{$transactionid|h}-->" />

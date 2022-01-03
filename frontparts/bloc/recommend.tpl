@@ -19,7 +19,7 @@
  *}-->
 
 <!--{strip}-->
-    <!--{if count($arrBestProducts) > 0}-->
+    <!--{if !empty($arrBestProducts)}-->
         <div class="block_outer clearfix">
             <div id="recommend_area">
                 <h2><i class="bi bi-hand-thumbs-up"></i> おすすめ商品情報</h2>
