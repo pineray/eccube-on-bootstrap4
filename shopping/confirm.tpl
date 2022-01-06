@@ -91,13 +91,13 @@
                         </div>
                     </div>
                 <!--{/foreach}-->
-                <div class="list-group-item d-flex justify-content-between">
+                <div class="list-group-item d-flex justify-content-between align-items-center">
                     <div>小計</div>
                     <div><!--{$tpl_total_inctax[$cartKey]|n2s}-->円</div>
                 </div>
                 <!--{if $smarty.const.USE_POINT !== false}-->
                     <!--{if $arrForm.use_point > 0}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <div>値引き（ポイントご使用時）</div>
                         <div>
                             <!--{assign var=discount value="`$arrForm.use_point*$smarty.const.POINT_VALUE`"}-->
@@ -105,15 +105,15 @@
                     </div>
                     <!--{/if}-->
                 <!--{/if}-->
-                <div class="list-group-item d-flex justify-content-between">
+                <div class="list-group-item d-flex justify-content-between align-items-center">
                     <div>送料</div>
                     <div><!--{$arrForm.deliv_fee|n2s}-->円</div>
                 </div>
-                <div class="list-group-item d-flex justify-content-between">
+                <div class="list-group-item d-flex justify-content-between align-items-center">
                     <div>手数料</div>
                     <div><!--{$arrForm.charge|n2s}-->円</div>
                 </div>
-                <div class="list-group-item d-flex justify-content-between list-group-item-info">
+                <div class="list-group-item d-flex justify-content-between align-items-center list-group-item-info">
                     <div>合計</div>
                     <div><span class="price"><!--{$arrForm.payment_total|n2s}-->円</span></div>
                 </div>
@@ -122,25 +122,25 @@
             <!--{* ログイン済みの会員のみ *}-->
             <!--{if $tpl_login == 1 && $smarty.const.USE_POINT !== false}-->
                 <div class="delivname list-group mt-3">
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <div>ご注文前のポイント</div>
                         <div><!--{$tpl_user_point|n2s|default:0}-->Pt</div>
                     </div>
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <div>ご使用ポイント</div>
                         <div>-<!--{$arrForm.use_point|n2s|default:0}-->Pt</div>
                     </div>
                     <!--{if $arrForm.birth_point > 0}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <div>お誕生月ポイント</div>
                         <div>+<!--{$arrForm.birth_point|n2s|default:0}-->Pt</div>
                     </div>
                     <!--{/if}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <div>今回加算予定のポイント</div>
                         <div>+<!--{$arrForm.add_point|n2s|default:0}-->Pt</div>
                     </div>
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                     <!--{assign var=total_point value="`$tpl_user_point-$arrForm.use_point+$arrForm.add_point`"}-->
                         <div>加算後のポイント</div>
                         <div><!--{$total_point|n2s}-->Pt</div>

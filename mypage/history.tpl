@@ -114,45 +114,45 @@
                             </div>
                         </div>
                     <!--{/foreach}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <small>小計：</small>
                         <span><!--{$tpl_arrOrderData.subtotal|n2s}-->円</span>
                     </div>
                     <!--{assign var=point_discount value="`$tpl_arrOrderData.use_point*$smarty.const.POINT_VALUE`"}-->
                     <!--{if $point_discount > 0}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <small>ポイント値引き：</small>
                         <span>&minus;<!--{$point_discount|n2s}-->円</span>
                     </div>
                     <!--{/if}-->
                     <!--{assign var=key value="discount"}-->
                     <!--{if $tpl_arrOrderData[$key] != "" && $tpl_arrOrderData[$key] > 0}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <small>値引き：</small>
                         <span>&minus;<!--{$tpl_arrOrderData[$key]|n2s}-->円</span>
                     </div>
                     <!--{/if}-->
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <small>送料：</small>
                         <span><!--{assign var=key value="deliv_fee"}--><!--{$tpl_arrOrderData[$key]|n2s|h}-->円</span>
                     </div>
-                    <div class="list-group-item d-flex justify-content-between">
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
                         <small>手数料：</small>
                         <!--{assign var=key value="charge"}-->
                         <span><!--{$tpl_arrOrderData[$key]|n2s|h}-->円</span>
                     </div>
-                    <div class="list-group-item d-flex justify-content-between list-group-item-info">
+                    <div class="list-group-item d-flex justify-content-between align-items-center list-group-item-info">
                         <small>合計：</small>
                         <span><span class="price"><!--{$tpl_arrOrderData.payment_total|n2s}-->円</span></span>
                     </div>
 
                     <!-- 使用ポイントここから -->
                     <!--{if $smarty.const.USE_POINT !== false}-->
-                        <div class="list-group-item d-flex justify-content-between">
+                        <div class="list-group-item d-flex justify-content-between align-items-center">
                             <small>ご使用ポイント：</small>
                             <span><!--{assign var=key value="use_point"}--><!--{$tpl_arrOrderData[$key]|n2s|default:0}--> pt</span>
                         </div>
-                        <div class="list-group-item d-flex justify-content-between">
+                        <div class="list-group-item d-flex justify-content-between align-items-center">
                             <small>今回加算されるポイント：</small>
                             <span><!--{$tpl_arrOrderData.add_point|n2s|default:0}--> pt</span>
                         </div>

@@ -140,18 +140,18 @@
                                     </div>
                                 </div>
                             <!--{/foreach}-->
-                            <div class="list-group-item d-flex justify-content-between">
+                            <div class="list-group-item d-flex justify-content-between align-items-center">
                                 <div>合計</div>
                                 <div><span class="price"><!--{$arrData[$key].total-$arrData[$key].deliv_fee|n2s|h}-->円</span></div>
                             </div>
                             <!--{if $smarty.const.USE_POINT !== false}-->
                                 <!--{if $arrData[$key].birth_point > 0}-->
-                                    <div class="list-group-item d-flex justify-content-between">
+                                    <div class="list-group-item d-flex justify-content-between align-items-center">
                                         <div>お誕生月ポイント</div>
                                         <div><!--{$arrData[$key].birth_point|n2s|h}-->pt</div>
                                     </div>
                                 <!--{/if}-->
-                                <div class="list-group-item d-flex justify-content-between">
+                                <div class="list-group-item d-flex justify-content-between align-items-center">
                                     <div>今回加算ポイント</div>
                                     <div><!--{$arrData[$key].add_point|n2s|h}-->pt</div>
                                 </div>
